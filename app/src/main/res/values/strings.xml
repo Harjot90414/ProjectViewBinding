@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProjectViewBinding</string>
+    <string name="Login">Login</string>
+    <string name="After_Login">After Login</string>
+    <string name="Enter_Your_email">Enter your Email</string>
+    <string name="Enter_your_password">Enter your Password</string>
+    <string name="Register">Register</string>
+    <string name="Name">Name</string>
+    <string name="Username">Username</string>
+    <string name="Confirm_password">Confirm Password</string>
+    <string name="Gender">Gender:</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="select_gender">Select Gender</string>
+</resources>
