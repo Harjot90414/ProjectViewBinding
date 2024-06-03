@@ -30,12 +30,12 @@ class Register_page : AppCompatActivity() {
             else if (binding.etUsername.text.toString().isNullOrEmpty()) {
                 binding.etUsername.error ="Enter Username"
             }
-//            else if(binding.rbMale.text.toString().isNullOrEmpty()){
-//                Toast.makeText(this,resources.getString(R.string.select_gender),Toast.LENGTH_SHORT).show()
-//            }
-//            else if(binding.rbFemale.text.toString().isNullOrEmpty()){
-//                Toast.makeText(this,resources.getString(R.string.select_gender),Toast.LENGTH_SHORT).show()
-//            }
+            else if(binding.rbMale.text.toString().isNullOrEmpty()){
+                Toast.makeText(this,resources.getString(R.string.select_gender),Toast.LENGTH_SHORT).show()
+            }
+            else if(binding.rbFemale.text.toString().isNullOrEmpty()){
+                Toast.makeText(this,resources.getString(R.string.select_gender),Toast.LENGTH_SHORT).show()
+            }
             else if (binding.etRegEmail.text.toString().isNullOrEmpty()) {
                 binding.etRegEmail.error ="Enter Email"
             }

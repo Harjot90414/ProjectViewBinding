@@ -34,36 +34,36 @@
         android:inputType="text"
         android:id="@+id/etUsername"
         />
-<!--    <TextView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/Gender"-->
-<!--        android:textSize="30sp"-->
-<!--        android:layout_marginTop="20dp"-->
-<!--        />-->
-<!--    <RadioGroup-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:orientation="horizontal"-->
-<!--        android:id="@+id/rgGender"-->
-<!--        android:layout_marginTop="10dp">-->
-<!--        <RadioButton-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_weight="1"-->
-<!--            android:id="@+id/rbMale"-->
-<!--            android:text="@string/Male"-->
-<!--            android:textSize="20sp"-->
-<!--            />-->
-<!--        <RadioButton-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_weight="1"-->
-<!--            android:id="@+id/rbFemale"-->
-<!--            android:text="@string/Female"-->
-<!--            android:textSize="20sp"-->
-<!--            />-->
-<!--    </RadioGroup>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Gender"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/rgGender"
+        android:layout_marginTop="10dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/rbMale"
+            android:text="@string/Male"
+            android:textSize="20sp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/rbFemale"
+            android:text="@string/Female"
+            android:textSize="20sp"
+            />
+    </RadioGroup>
 
     <EditText
         android:layout_width="match_parent"
